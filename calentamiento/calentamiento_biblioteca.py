@@ -92,6 +92,7 @@ def sincronizar_grafo(G, tita0,titulo):
     """
     t, trayectoria = simulacion(tita0, G, T=20)
     tita_final = trayectoria[-1]
+    print("Conectividad del grafo:", conectividad(G))
     print("Energía inicial:", energia(tita0, G))
     print("Energía final:", energia(tita_final, G))
     print("Parámetro de orden inicial:", orden(tita0))

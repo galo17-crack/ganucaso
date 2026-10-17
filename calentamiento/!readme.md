@@ -17,3 +17,5 @@ en grafo_completo.py está el análisis de los grafos completos y muestra que pa
 en grafoo_ciclico.py pueden jugar cambiando el tamaño del grafo (para n<=4 sincroniza globalmente (su conectividad es mayor a 3/4), despúes depende de las condiciones iniciales se puede trabar en los twisted states (2piqj/n))
 
 en grafooo_circulante.py en algun momento estará el analisis de los grafos circulantes donde tambien se traba en los twisted states
+
+en pruebas.py pueden poner cualquier basura, por lo general si queres probar cualquier grafo con condiciones iniciales definis el grafo y las condiciones iniciales corres sincronizar_grafo (quiza la funcion con peor nombre de la historia) y ves si sincronizo o no
